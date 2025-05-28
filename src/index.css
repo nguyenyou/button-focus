@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+.trns-o {
+  -webkit-transition: all .1s, outline .3s ease;
+  transition: all .1s, outline .3s ease;
+}
+
+.focus\:outline-light {
+  outline: 12px solid transparent;
+  outline-offset: 2px
+}
+
+.focus\:outline-light:focus {
+  outline: 2px solid #acdbf8;
+}
